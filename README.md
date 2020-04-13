@@ -1,2 +1,2 @@
-# EulerTask1
-Project Euler solution for #1 problem
+# EulerTask
+Project Euler solutions for the first #100
