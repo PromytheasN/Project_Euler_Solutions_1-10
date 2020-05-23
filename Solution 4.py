@@ -32,5 +32,5 @@ def largest_pal_number():
     #number of our list that fulfills our criteria. 
     for polymer_num in poly:
         for divident in reversed(range(100,1000)):
-            if polymer_num/divident == polymer_num//divident and 99 < polymer_num//divident < 1000:
+            if polymer_num % divident == 0 and 99 < polymer_num//divident < 1000:
                 return polymer_num
