@@ -11,7 +11,7 @@ def small_divident():
     #1 to 10 as well as all the numbers bellow are primes or multiples of numbers of 1 to 10.
     #This will increasae the time efficiency of our function.
     #Here we create an array of our list using NumPy module
-    divarray = numpy.array([20,19,18,17,16,15,14,13,12,11])
+    div_array = numpy.array([20,19,18,17,16,15,14,13,12,11])
     
     #20*19 = 390, that would be the smollest possible number that could be divided both from 20 and 19
     num = 390
