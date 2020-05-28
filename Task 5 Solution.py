@@ -13,7 +13,8 @@ def small_divident():
     #Here we create an array of our list using NumPy module
     div_array = numpy.array([20,19,18,17,16,15,14,13,12,11])
     
-    #20*19 = 390, that would be the smollest possible number that could be divided both from 20 and 19
+    #20*19 = 390, that would be the smallest possible number that could be divided both from 20 and 19.
+    #Using that number instead of just adding 20 for each failed attempt will increase time efficiency 
     num = 390
     nofound = True
     
