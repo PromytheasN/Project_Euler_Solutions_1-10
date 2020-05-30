@@ -25,8 +25,8 @@ str1 = ('73167176531330624919225119674426574742355349194934'\
 def max_digits_product(str1):
     
     """
-    This function returns the 13 adjacent digits in the 1000-digit number provided,
-    that have the greatest product.
+    This function returns the greatest product of the 13 adjacent digits in any string of numbers or 
+    integars that we may input.
     """
     
 
