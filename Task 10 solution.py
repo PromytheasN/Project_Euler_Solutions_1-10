@@ -8,7 +8,7 @@ Thoughts:
 
 def prime_list(num):
     """
-    This function generates prime list list up to the range = num
+    This function generates prime list up to the range = num
     """
     #Creating a prime list using sympy.primerange function
     prime_list = list(sympy.primerange(0, num + 1))
